@@ -62,7 +62,7 @@ projetos.forEach(p => {
   const div = document.createElement("div");
   div.className = "projeto";
   div.innerHTML = 
- <img src="${p.imagemPrincipal}" alt="${p.title}"  id="${p.id}"/>
+// <img src="${p.imagemPrincipal}" alt="${p.title}"  id="${p.id}"/>
     `<h3>${p.title}</h3>
     <p><strong>${p.disc}</strong></p>
     <p>${p.descricao}</p>
