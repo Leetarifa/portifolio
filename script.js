@@ -2,9 +2,9 @@ const projetos = [
   {
     title: "Lastrear Imóvel",
     disc: "Plataforma mobile para centralização de leads e otimização da análise de crédito.",
-    descricao: "Lastrear Imóvel é uma plataforma mobile desenvolvida para empresas do setor imobiliário...",
+    descricao: "Lastrear Imóvel é uma plataforma mobile desenvolvida para empresas do setor imobiliário",
     techUtilizadas: ["React", "Node.js", "MongoDB", "JavaScript"],
-    imagemPrincipal: "assets/projetos/lastrear/celular.png",
+    imagemPrincipal: "assets/celular.jpg",
     link: {
       front: "https://github.com/Melancia-Salgada/PI5_website",
       back: "https://github.com/Melancia-Salgada/aprovafacil",
@@ -16,7 +16,7 @@ const projetos = [
     disc: "Sistema de gerenciamento de pacientes e controle financeiro para psicólogos.",
     descricao: "EasyPsi é uma plataforma de gestão para psicólogos que trabalham online...",
     techUtilizadas: ["React", "FastAPI", "MongoDB", "JavaScript", "Google Agenda API"],
-    imagemPrincipal: "assets/projetos/easypsi/home.png",
+    imagemPrincipal: "assets/home.png",
     link: {
       front: "https://github.com/Melancia-Salgada/psico-frontend",
       back: "https://github.com/Melancia-Salgada/psico-backend"
@@ -27,7 +27,7 @@ const projetos = [
     disc: "Aplicação React para gerenciamento de estúdios de tatuagem.",
     descricao: "InkDash inclui login, dashboard, controle de clientes e agendamentos...",
     techUtilizadas: ["React", "JavaScript", "Axios", "React Router DOM"],
-    imagemPrincipal: "assets/projetos/inkdash/dashboard.png",
+    imagemPrincipal: "assets/dashboard.jpg",
     link: {
       front: "https://github.com/TechWeavers/tattoo-management-react",
       back: "https://github.com/TechWeavers/PI-StreetWise-ERP-3Semestre"
@@ -38,7 +38,7 @@ const projetos = [
     disc: "Sistema de gerenciamento para estúdios de tatuagem em Node.js.",
     descricao: "Projeto inicial desenvolvido para a Streetwise...",
     techUtilizadas: ["Node.js", "Express", "Sequelize", "MySQL"],
-    imagemPrincipal: "assets/projetos/streetwise/agenda.png",
+    imagemPrincipal: "assets/agenda.png",
     link: {
       front: "https://github.com/TechWeavers/tattoo-service-nodejs",
       back: "https://github.com/TechWeavers/tattooManagement"
@@ -49,7 +49,7 @@ const projetos = [
     disc: "Website responsivo para escola de inglês com abordagem afrocentrada.",
     descricao: "Site moderno e responsivo destacando cursos, professores e horários...",
     techUtilizadas: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-    imagemPrincipal: "assets/projetos/odara/homepage.png",
+    imagemPrincipal: "assets/odara.jpg",
     link: {
       front: "https://github.com/turtoga/OdaraEnglishSchool"
     }
@@ -62,7 +62,7 @@ projetos.forEach(p => {
   const div = document.createElement("div");
   div.className = "projeto";
   div.innerHTML = 
-    // <img src="${p.imagemPrincipal}" alt="${p.title}"  id="${p.id}"/>
+ <img src="${p.imagemPrincipal}" alt="${p.title}"  id="${p.id}"/>
     `<h3>${p.title}</h3>
     <p><strong>${p.disc}</strong></p>
     <p>${p.descricao}</p>
